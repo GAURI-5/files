@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script type="text/javascript" src="addtocart.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- <body>
+    <nav>
+        <ul><a href="#">Home</a></ul>
+        <ul><a href="#">Home</a></ul>
+        <ul><a href="#">Home</a></ul>
+        <ul><a href="#">Home</a></ul>
+        <ul><a href="#">Cart</a></ul>
+    </nav> -->
+    <div class="container1">
+        
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn"></label>
+            <i class="fas fa-bars"></i>
+        <ul><a class="active" href="#">Home</a></ul>
+        <ul><a href="#">About Us</a></ul>
+        <ul><a href="#">contact</a></ul>
+        <ul><a href="#">services</a></ul>
+        <ul><a href="cart.html">Cart<i class="fas fa-shopping-cart" ></i></a></ul>
+    </nav>
+        <!-- <a href=""><button class="btn";><i class="fas fa-shopping-cart" ></i>	</button></a> -->
+        <!-- <div class="cart" id="cart">
+            <div class="title"></div><hr/>
+            <div id="title"></div>
+            <div class="cart" id="cart">
+        <div class="cart"></div><hr/>
+        <div id="title"></div>
+    </div>
+        </div> -->
+        <div class="cart" id="cart">
+            <div class="card">cart</div><hr/>
+            <div id="title"></div>
+        </div>
+        <!-- <nav>
+            <a href="cart.html" class="btn"><i class="fas fa-shopping-cart" ></i></a>
+        </nav> -->
+            <div>
+            <div class="store"> 
+                
+                <div class="card" id="item1">
+                <img src="images/category-1.jpg">
+                <div class="title"><h1>shooes</h1>
+                <span><h2>&#8377; 500</h2></span></div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <button class="btn" onclick="addToCart(item1)"><i class="fas fa-cart-arrow-down"></i></button>
+                </div></div>
+                <div class="card" id="item2">
+                    <img src="images/category-1.jpg">
+                    <div class="title"><h1>shooes</h1>
+                    <span><h2>&#8377; 500</h2></span></div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <button class="btn" onclick="addToCart(item2)"><i class="fas fa-cart-arrow-down"></i></button>
+                </div></div>
+                <div class="card" id="item3">
+                    <img src="images/category-1.jpg">
+                    <div class="title"><h1>shooes</h1>
+                    <span><h2>&#8377; 500</h2></span></div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <button class="btn" onclick="addToCart(item3)"><i class="fas fa-cart-arrow-down"></i></button>
+                </div></div>
+                <div class="card" id="item4">
+                    <img src="images/category-1.jpg">
+                    <div class="title"><h1>shooes</h1>
+                    <span><h2>&#8377; 500</h2></span></div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <button class="btn" onclick="addToCart(item4)"><i class="fas fa-cart-arrow-down"></i></button>
+                </div></div>
+                <div class="card" id="item5">
+                    <img src="images/category-1.jpg">
+                    <div class="title"><h1>shooes</h1>
+                    <span><h2>&#8377; 500</h2></span></div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <button class="btn" onclick="addToCart(item5)"><i class="fas fa-cart-arrow-down"></i></button>
+                </div></div>  
+                <div class="card" id="item6">
+                    <img src="images/category-1.jpg">
+                    <div class="title"><h1>shooes</h1>
+                    <span><h2>&#8377; 500</h2></span></div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <button class="btn" onclick="addToCart(item6)"><i class="fas fa-cart-arrow-down"></i></button>
+                </div></div>
+                <div class="card" id="item7">
+                    <img src="images/category-1.jpg">
+                    <div class="title"><h1>shooes</h1>
+                    <span><h2>&#8377; 500</h2></span></div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <button class="btn" onclick="addToCart(item7)"><i class="fas fa-cart-arrow-down"></i></button>
+                </div></div>
+                <div class="card" id="item8">
+                    <img src="images/category-1.jpg">
+                    <div class="title"><h1>shooes</h1>
+                    <span><h2>&#8377; 500</h2></span></div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <button class="btn" onclick="addToCart(item8)"><i class="fas fa-cart-arrow-down"></i></button>
+                </div></div>
+            
+    </div>            </div>
+    </div>
+        </div>
+        
+
+        </section> 
+    <div class="theme-toggler">
+        <span style="background: linear-gradient(deeppink, purple);"></span>
+        <span style="background: linear-gradient(lightgreen, crimson);"></span>
+        <span style="background:linear-gradient(blueviolet, deeppink)"></span>
+        <span style="background:linear-gradient(coral, blueviolet)"></span>
+        <span style="background:linear-gradient(#999, lightgreen)"></span>
+    </div>
+    <script>
+        
+    let themeColor = document.querySelectorAll('.theme-toggler span');
+    themeColor.forEach(color => color.addEventListener('click', () =>{
+        let background = color.style.background;
+        document.querySelector('body').style.background = background;
+    }));
+
+</script>
+    
+</body>
+</html>
